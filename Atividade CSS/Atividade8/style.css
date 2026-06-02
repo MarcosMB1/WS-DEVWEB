@@ -1,0 +1,12 @@
+p{
+    background-color: yellow;
+}
+p{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 3px solid;
+    border-radius:10px;
+    background-color: blue;
+    color: white;
+}

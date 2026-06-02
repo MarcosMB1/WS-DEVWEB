@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+.card{
+    background-color: black;
+    
+    margin: 30px;
+    padding: 10px 30px;
+    width: 890px;
+}
+
+.imagem{
+    width: 300px;
+    height: 300px;
+}
+
+img{
+    margin-bottom: 100px;
+    display: block;
+}
+
+
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
