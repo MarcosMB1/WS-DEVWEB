@@ -1,0 +1,35 @@
+card{
+    margin: 25px;
+    background-color: rgb(230, 180, 87);
+    padding: 10px 30px;
+    width: 555px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 30px #0f0f0f;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0 700px;
+    align-items: center;
+}
+
+img{
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #000000;
+    margin-bottom: 40px;
+    display: block;
+}
+
+
+h2:hover{
+    background-color: darkblue;
+    color: white;
+    text-decoration: underline;
+}
+h3:hover{
+    background-color: darkblue;
+    color: white;
+    text-decoration: underline;
+}
