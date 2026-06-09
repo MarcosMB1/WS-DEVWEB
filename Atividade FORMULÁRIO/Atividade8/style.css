@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 10px 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px whitesmoke;
+    
+}
+
+h1{
+    color: red;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+label{
+    display: block;
+    margin-top: 8px;
+}
+
+button{
+    color: white;
+    background-color: green;
+}

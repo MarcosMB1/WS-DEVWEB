@@ -1,0 +1,31 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    width: 400px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px red;
+
+}
+
+button{
+    color: white;
+    background-color: red;
+}
+
+input:hover{
+    background-color: red;
+    color: white
+}
+
+select:hover{
+    background-color: red;
+    color: white
+}
+
+textarea:hover{
+    background-color: red;
+    color: white
+}
+
+
