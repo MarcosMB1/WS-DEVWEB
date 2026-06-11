@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro De Produtos</h1>
+    <label for="produto">Digite o Produto:</label>
+        <input type="text" name="produto" id="produto" placeholder="Digite o Produto"><br>
+    <label for="preco">Digite o Preço:</label>
+        <input type="number" name="preco" id="preco" placeholder="Digite o Preço"><br>
+    <label for="quantidade">Quantidade em Estoque:</label>
+        <input type="number" name="quantidade" id="quantidade" placeholder="Digite a Quantidade"><br>
+        <label for="servico">Escolha a Categoria:</label>
+        <select name="categoria" id="categoria" required>
+            <option value=""select disabled>Selecione......</option>
+            <option value="eletrônico">Eletrônico</option>
+            <option value="roupa">Roupa</option>
+            <option value="acessorio">Acessório</option>
+        </select>
+    <h2>Escolha Uma Cor:</h2>
+        <label for="cor">Escolha Uma Cor</label>
+        <input type="color" name="cor" id="cor" placeholder="Escolha uma Cor"><br>
+    <h3>Escolha Uma Imagem:</h3> 
+        <label for="imagem">Escolha Uma Imagem</label>
+        <input type="file" name="imagem" id="imagem"><br>
+        <button type="reset">Limpar Dados</button><br>
+        <button type="submit">Salvar Dados</button><br>
+</body>
+</html>

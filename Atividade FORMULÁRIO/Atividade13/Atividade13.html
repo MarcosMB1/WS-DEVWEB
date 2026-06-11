@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inscrição Do Curso:</h1>
+    <label for="nome">Nome Completo:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite Seu nome"><br>
+    <label for="email">E-mail:</label>
+    <input type="text" name="email" id="email" placeholder="Digite Seu E-mail"><br>
+    <label for="telefone">Telefone:</label>
+    <input type="number" name="telefone" id="telefone" placeholder="Digite Seu Telefone"><br>
+    <label for="curso">Escolha o Curso:</label>
+    <select name="curso" id="curso" required>
+        <option value=""select disabled>Selecione......</option>
+        <option value="t.i">Técnico em Informática</option>
+        <option value="logistica"> Técnico em Logistíca</option>
+        <option value="rh">Técnico em Recursos Humanos</option>
+    </select>
+    <h2>Periodo:</h2>
+    <input type="radio" name="manha" id="manha"
+    value="manha">
+    <label for="manha">Manhã</label><br>
+    <input type="radio" name="tarde" id="tarde"
+    value="tarde">
+    <label for="tarde">Tarde</label><br>
+    <input type="radio" name="noite" id="noite"
+    value="noite">
+    <label for="noite">Noite</label><br>
+    <h3>Materias Extras:</h3>
+    <input type="checkbox" name="materias" id="apostila"
+        value="apostila">
+        <label for="apostila">Apostila</label><br>
+        <input type="checkbox" name="materias" id="certificado"
+        value="certificado">
+        <label for="certificado">Certificado</label><br>
+        <input type="checkbox" name="materias" id="suporte">
+        <label for="suporte">Suporte</label><br>
+    <h4>Duvidas:</h4>
+    <textarea name="duvidas" id="duvidas"></textarea><br>
+    <button type="submit">Confirmar Inscrição</button><br>
+
+</body>
+</html>

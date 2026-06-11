@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Agendamento</h1>
+    <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite Seu Nome Completo"><br>
+    <label for="telefone">Digite Seu Telefone:</label>
+        <input type="number" name="telefone" id="telefone" placeholder="Digite Seu Telefone"><br>
+    <label for="datadeatendimento">Data De Atendimento:</label>
+        <input type="date" name="datadeatendimento" id="datadeatendimento" placeholder="Digite A Data Do Atendimento"><br>
+    <label for="horario">Digite o Horário:</label>
+        <input type="time" name="horario" id="horario" placeholder="Digite o Horário"><br>
+    <label for="servico">Digite o Serviço Desejado:</label>
+        <select name="servico" id="servico" required>
+            <option value=""select disabled>Selecione......</option>
+            <option value="barba">Barba</option>
+            <option value="cabelo">Cabelo</option>
+            <option value="cabelo e barba">Cabelo e Barba</option>     
+        </select>
+        <h2>Prioridade:</h2>
+        <input type="radio" name="prioridade" id="baixa"
+            value="baixa">
+         <label for="baixa">Baixa</label><br>
+            <input type="radio" name="prioridade" id="media"
+            value="media">
+        <label for="medias">Média</label><br>
+            <input type="radio" name="prioridade" id="alta">
+         <label for="alta">Alta</label><br>
+         <h3>Observações:</h3>
+         <textarea name="observações" id="observações"></textarea><br>
+         <button type="reset">Limpar</button><br>
+         <button type="submit">Enviar</button><br>
+         <h4>AGRADECEMOS PELO SERVIÇO!!</h4><br>
+</body>
+</html>
