@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;;
+    height: 400px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black; 
+}
+
+P{
+    font-style: oblique;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
