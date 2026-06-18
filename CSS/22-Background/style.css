@@ -1,9 +1,24 @@
-.bg{
-    width: 2000px;
-    height: 2000px;
-    background-color: coral;
+.banner{
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #ff0000, #000847, #330072);
+}
+
+.secao{
+    height: 300px;
+    padding: 50px;
+    color: white;
     background-image: url(images\ \(1\).jfif);
-    background-repeat: no-repeat;
+    background-image: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment:fixed;
+}
+
+.card{
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: radial-gradient(circle, #0011ff 0%, #ff0000) ;
 }

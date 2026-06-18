@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*:Hover-Quando o cursor do mouse está sobre um elemento*/
+button:hover{
+    background-color: red;
+    color: yellow;
+}
+
+/*:focus-Quando um elemento está em foco*/
+input:focus{
+    border: 2px solid navy;
+    border-radius: 5px;
+    outline: none;
+}
+
+/*:active- Quando um elemento está sendo ativado*/
+button:active{
+    background-color: black;
+    color: whitesmoke;
+}
+
+/*:visited- Links visitados*/
+a:visited{
+    color: yellow;
+}
+
+/*:checked- quando marcado*/
+input:checked{
+    width: 20px;
+    height: 20px;
+}
+
+/*:disabled- quando desativado*/
+input:disabled{
+    background-color: black;
+    color: whitesmoke;
+}
+
+/*::first-child- Primeiro filho de um dos pais
+:last-child- Último filho de um dos pais
+:nth-child(n)- O enésimo filho de um pai
+:lang()- Elementos com um idioma específico*/
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: rebeccapurple;
+}
+li:nth-child(2){
+    color: royalblue;
+}

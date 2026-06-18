@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Hierarquia de seletores estiliza apenas os parágrafos dentro da section*/
+section p{
+    color: brown;
+}
+
+/*Aplica estilo nos filhos diretos do seletor*/
+ul > li{
+    color: aquamarine;
+}
+
+/*Aplicação do mesmo estilo para vários seletores*/
+h2, h3{
+    background-color: lightcoral;
+}
+
+.card{
+    background-color: lightblue;
+}
+
+/*Aplicar estilo em uma tag com duas classes*/
+.card.destaque{
+    color: red;
+}
+
+h2 + p{
+    color: blueviolet;
+}
+
+/*Estiliza todos ápos elemento*/
+h2 ~ p{
+    color: chocolate;
+}
