@@ -4,45 +4,60 @@
     box-sizing: border-box;
 }
 
-.elemento{
-    color: white;
-    font-size: 30px;
-    width: 250px;
-    height: 250px;
-    text-align: center;
+body{
+    height: 1500px;
+    background-color: whitesmoke;
 }
 
-.estatico{
-    background-color: navy;
+.static{
     position: static;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
 }
 
-.relativo{
-    background-color: lightblue;
+.container{
     position: relative;
-    left: 100px;
-    top: 50px;
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    background-color: darkblue;
+    text-align: center;
+    color: yellow;
 }
 
-.absoluto{
-    background-color: blue;
-    position: absolute;
-    top: 0;
-    left: 300px;
+.relative{
+ position: relative;
+ background-color: skyblue;
+ color: whitesmoke;
+ text-align: center;
+ padding: 10px;
+ width: 200px;
+ top: 0;
+ left: 0;
+
+ 
 }
 
-.relativo-pai{
-    background-color: slateblue;
-    position: relative;
-    width: 400px;
-    height: 400px;
+.absolute{
+position: absolute;
+background-color: cornflowerblue;
+color: whitesmoke;
+text-align: center;
+padding: 10px;
+width: 200px;
+top: 0;
+left: 0;
 }
 
-.absoluto-filho{
-    background-color: blueviolet;
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    left: 150px;
-    top: 50px;
+.fixed{
+position: fixed;
+background-color: cornsilk;
+top: 20px;
+right: 20px;
+padding: 20px;
+text-align: center;
+color: black;
 }

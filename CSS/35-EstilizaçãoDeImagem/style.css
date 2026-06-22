@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bloco{
+    margin: 10px 20px;
+    width: 800px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #390; 
+    border-radius: 5px;
+}
+
+.bloco p{
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.largura{
+    width: 300px;
+}
+
+.altura{
+    height: 150px;
+}
+
+img{
+    border: 2px solid #409;
+}
+
+.fit{
+    width: 250px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.position{
+    width: 350px;
+    height: 100px;
+    object-fit: contain;
+    object-position: left;
+}
+
+.filter{
+    width: 250px;
+    filter: grayscale();
+}
+
+.opacity{
+    width: 250px;
+    opacity: 0.5;
+}
+
+.border{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.final{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: left;
+    filter: grayscale();
+    opacity: 0.5;
+    border-radius: 16px;
+}
+

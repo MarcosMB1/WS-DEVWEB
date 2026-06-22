@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: lightgreen;
+}
+
+.caixa1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    color: black;
+    text-align: center;
+    top: 30px;
+    left: 30px;
+}
+
+.caixa2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    top: 60px;
+    left: 60px;
+}
+
+.caixa3{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: whitesmoke;
+    text-align: center;
+    top: 70px;
+    left: 70px;
+}
