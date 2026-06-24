@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+    width: 600px;;
+    height: 600px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px whitesmoke;
+}
+
+.img{
+    background: whitesmoke;
+}
+
+.but{
+    color: white;
+}
+
+.butto{
+    color: white;
+}
+
+
+

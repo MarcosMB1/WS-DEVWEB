@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;;
+    height: 450px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.name{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.mensagem1{
+    color: whitesmoke;
+    background: linear-gradient(red, blue);
+}
+
+.mensagem2{
+    color: whitesmoke;
+    background: linear-gradient(red, blue);
+}
+
+.mensagem3{
+    color: whitesmoke;
+    background: linear-gradient(red, blue);
+}
+
+.mensagem4{
+    font-size: 55px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    color: whitesmoke;
+    background: linear-gradient(red, blue, darkblue);
+}
