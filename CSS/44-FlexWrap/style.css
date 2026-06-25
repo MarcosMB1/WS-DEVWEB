@@ -1,0 +1,34 @@
+*{
+
+}
+
+.container{
+    display: flex;
+    max-width: 300px;
+    margin: 5px;
+    padding: 10px;
+    background-color: navy;
+}
+    
+
+.item{
+    background-color: orange;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.nowwrap{
+    flex-wrap: nowrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}   
+

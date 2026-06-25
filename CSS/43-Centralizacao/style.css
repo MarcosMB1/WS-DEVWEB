@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Container Principal (FLEX CONTAINER)*/
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: navy;
+    color: whitesmoke;
+
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Caixa Que Fica Dentro Do Container Principal (FLEX ITEM)*/
+.item{
+    background-color: red;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+}
