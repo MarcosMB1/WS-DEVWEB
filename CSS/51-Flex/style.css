@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    max-width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(40, 0, 150);
+}
+
+.item{
+    background-color: orangered;
+    color: whitesmoke;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.flex-1 .item{
+    flex: 1;
+}
+
+.flex .item{
+    flex: 1 1 auto;
+}
+
+.flex-fixo .item{
+    flex: 0 0 200px;
+}
+
+.flex-completo .item{
+    flex: 1 1 250px;
+}

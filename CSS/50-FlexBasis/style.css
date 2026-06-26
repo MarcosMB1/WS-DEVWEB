@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    max-width: 500px;
+    margin: 5px;
+    padding: 10px;
+    background-color: red;
+}
+
+.item{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+.basis-auto .item{
+    flex-basis: auto;
+}
+
+.basis-px .item{
+    flex-basis: 200px;
+}
+
+.basis-porcentagem .item{
+    flex-shrink: 50%;
+}
