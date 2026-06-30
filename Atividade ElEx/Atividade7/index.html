@@ -11,7 +11,56 @@
         <h1>Inova Brasil</h1>
         <p>Aqui Você Inova Junto Com Agente</p>
     </div>
-    
-
+    <div class="sobre">
+        <h1>Sobre o Evento</h1>
+        <p> A tecnologia não transforma apenas os negócios; ela redesenha a forma como vivemos, nos comunicamos e construímos o amanhã. Seja muito bem-vindo ao Inova Brasil, o ecossistema onde a criatividade humana encontra o poder da tecnologia para criar o futuro.Este evento foi desenhado para quem enxerga a tecnologia como uma ferramenta de impacto real. Conectamos cientistas, criadores, líderes de tecnologia e entusiastas para debater as inovações que vão definir a próxima década e resolver os grandes desafios do nosso tempo.</p>
+    </div>
+   <div class="tempo">
+    <h1>Data</h1>
+    <data value="dia">10/07/2026</data>
+    <time datetime="tempo">10:00:00</time>
+   </div>
+   <div class="inscricao">
+    <h1>Inscrição</h1>
+    <form action="/" method="post">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o Seu Nome Completo"><br>
+        <label for="email">E-mail:</label>
+        <input type="text" name="email" id="email" placeholder="Digite o Seu E-mail"><br>
+        <label for="telefone">Telefone:</label>
+        <input type="text" name="telefone" id="telefone"><br>
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade"><br>
+        <label for="data">Data De Participação</label>
+        <input type="date" name="data" id="data"><br>
+   </div>
+   <div class="interesse">
+    <h1>Área De Interesse</h1>
+    <input type="checkbox" name="intereses" id="programacao"
+        value="programacao">
+        <label for="programacao">Programação</label>
+        <br>
+    <input type="checkbox" name="intereses" id="design"
+        value="design">
+        <label for="design">Design</label>
+        <br>
+    <input type="checkbox" name="intereses" id="certificado"
+        value="certificado">
+        <label for="certificado">Certificado</label>
+        <br>
+        <h1>Observações</h1>
+        <label for="observacoes"></label>
+        <textarea name="observacoes" id="observacoes" rows="5" cols="20" placeholder="Observações"></textarea>
+        <br>
+        <button type="submit">Enviar formulário</button>
+        <button type="submit">Apagar formulário</button>
+        <h1>Video</h1>
+        <video width="320"controls loop autoplay>
+            <source src="./videoplayback.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Seu Navegador Não Suporta Esse Tipo De Vídeo.
+        </video>
+   </div>
+   
 </body>
 </html>

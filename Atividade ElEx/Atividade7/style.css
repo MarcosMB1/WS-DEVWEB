@@ -4,10 +4,41 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 940px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
 .titulo{
-    background-color: black;
+    background-color: #232323;
     color: whitesmoke;
     text-align: center;
     font-style: italic;
     font-family: cursive;
+}
+
+.sobre{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.tempo{
+    background-color: #232323;
+    color: whitesmoke;
+}
+
+.inscricao{
+    background-color: blue;
+    color: whitesmoke;
+}
+
+.interesse{
+    background-color: #232323;
+    color: whitesmoke;
 }
